@@ -1,8 +1,13 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/42e8a34f839ca0c5ec45/maintainability)](https://codeclimate.com/github/code-vedas/rails-cable-x/maintainability)
+![](https://ruby-gem-downloads-badge.herokuapp.com/cable_x?type=total&color=brightgreen)
+[![Gem Version](https://badge.fury.io/rb/cable_x.svg)](https://badge.fury.io/rb/cable_x)
+[![Coverage Status](https://coveralls.io/repos/github/Code-Vedas/rails-cable-x/badge.svg?branch=master)](https://coveralls.io/github/Code-Vedas/rails-cable-x?branch=master)
+[![Build Status](https://travis-ci.com/code-vedas/rails-cable-x.svg?branch=master)](https://travis-ci.com/code-vedas/rails-cable-x)
+
 # CableX
-Short description and motivation.
+Standard MVC over cable for realtime applications to enjoy seamless experience over cable. Use specialized clients for Android, IOS, Angular, React, JS
 
 ## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:

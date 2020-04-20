@@ -193,7 +193,7 @@ DEPENDENCIES
   jdbc-sqlite3
   puma
   redis
-  rspec-rails
+  rspec-rails (~> 4.0.0)
   sqlite3
 
 BUNDLED WITH
