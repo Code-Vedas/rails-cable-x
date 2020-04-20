@@ -1,0 +1,18 @@
+rvm:
+  - 2.5
+  - 2.6.3
+  - 2.6.5
+  - 2.7.0
+  - 2.7.1
+  - jruby-9.2.5.0
+  - jruby-9.2.10.0
+sudo: false
+language: ruby
+cache: bundler
+before_install:
+  - gem install bundler -v 2.0.1
+  - gem install rspec
+script: bundle exec rspec
+branches:
+  only: master
+bundler_args: --with=development,test --jobs=3 --retry=3
