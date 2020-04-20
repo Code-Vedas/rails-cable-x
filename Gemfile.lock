@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cable_x (0.1.0)
+    cable_x (0.1.1)
       rails (>= 5.1)
 
 GEM
@@ -175,8 +175,6 @@ GEM
       sync
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    websocket-driver (0.7.1)
-      websocket-extensions (>= 0.1.0)
     websocket-driver (0.7.1-java)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
@@ -193,7 +191,7 @@ DEPENDENCIES
   jdbc-sqlite3
   puma
   redis
-  rspec-rails
+  rspec-rails (~> 4.0.0)
   sqlite3
 
 BUNDLED WITH
