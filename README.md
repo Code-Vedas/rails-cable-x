@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/42e8a34f839ca0c5ec45/maintainability)](https://codeclimate.com/github/code-vedas/rails-cable-x/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/58f79a904f11911be561/maintainability)](https://codeclimate.com/github/Code-Vedas/rails-cable-x/maintainability)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/cable_x?type=total&color=brightgreen)
 [![Gem Version](https://badge.fury.io/rb/cable_x.svg)](https://badge.fury.io/rb/cable_x)
 [![Coverage Status](https://coveralls.io/repos/github/Code-Vedas/rails-cable-x/badge.svg?branch=master)](https://coveralls.io/github/Code-Vedas/rails-cable-x?branch=master)
