@@ -7,6 +7,7 @@
 # CableX
 Standard MVC over cable for realtime applications to enjoy seamless experience over cable. Use specialized clients for Android, IOS, Angular, React, JS
 
+    Clients for Android, IOS, Angular, React, JS coming soon.
 ## Usage
 
 ## Installation
