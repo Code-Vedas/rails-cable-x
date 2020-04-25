@@ -16,8 +16,8 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 gem 'puma'
-gem 'redis'
 gem 'rack-cors'
+gem 'redis'
 gem 'sqlite3', platform: %i[ruby mswin mingw]
 # for JRuby
 gem 'activerecord-jdbc-adapter', platform: :jruby
