@@ -105,6 +105,8 @@ GEM
     puma (4.3.3-java)
       nio4r (~> 2.0)
     rack (2.2.2)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.2.2)
@@ -175,6 +177,8 @@ GEM
       sync
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    websocket-driver (0.7.1)
+      websocket-extensions (>= 0.1.0)
     websocket-driver (0.7.1-java)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
@@ -190,6 +194,7 @@ DEPENDENCIES
   coveralls (~> 0.8.23)
   jdbc-sqlite3
   puma
+  rack-cors
   redis
   rspec-rails (~> 4.0.0)
   sqlite3
