@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.com/code-vedas/rails-cable-x.svg?branch=master)](https://travis-ci.com/code-vedas/rails-cable-x)
 
 # CableX
-Standard MVC over cable for realtime applications to enjoy seamless experience over cable. Use specialized clients for [Angular](https://github.com/Code-Vedas/ngx-cable-x),Android, IOS, React, JS
+Standard MVC over cable for realtime applications to enjoy seamless experience over cable. Use specialized clients for [Angular](https://github.com/Code-Vedas/ngx-cable-x),[JS](https://github.com/Code-Vedas/cable-x-js),[React](https://github.com/Code-Vedas/cable-x-js),Android, IOS
 
     Clients for Android, IOS, Angular, React, JS coming soon.
 ## Usage
