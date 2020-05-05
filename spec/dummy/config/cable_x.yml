@@ -1,10 +1,16 @@
 ###
 # Set origins appropriately, is follows standard action cable format for allowed_request_origins
 ###
+default: &default
+  allowed_request_origins: ["http://127.0.0.1:3000/cable_x","http://localhost:4200"]
+  rate_limit:
+    second: 2 # maximum per second
+    minute: 10 # maximum per minute
+    hour: 60 # maximum per hour
+    cool_down: 300 # in seconds
 production:
-  ##TODO edit me
-  allowed_request_origins: ["http://127.0.0.1:3000/cable_x","http://localhost:4200"]
+  <<: *default
 development:
-  allowed_request_origins: ["http://127.0.0.1:3000/cable_x","http://localhost:4200"]
+  <<: *default
 test:
-  allowed_request_origins: ["http://127.0.0.1:3000/cable_x","http://localhost:4200"]
+  <<: *default

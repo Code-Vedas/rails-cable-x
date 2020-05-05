@@ -15,6 +15,7 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+gem 'byebug'
 gem 'puma'
 gem 'rack-cors'
 gem 'redis'
