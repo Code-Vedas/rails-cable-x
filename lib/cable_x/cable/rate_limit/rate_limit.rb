@@ -26,10 +26,8 @@ module CableX
               redis_set key, 1, 1.send(unit) * 1000
             end
           end
-          if block_connection
-            block_device unit
-            unit
-          end
+          return unless block_connection
+          block_device unit
         end
       end
     end

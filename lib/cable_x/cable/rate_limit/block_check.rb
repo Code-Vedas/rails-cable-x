@@ -6,7 +6,6 @@ module CableX
       ##
       # Process Rate Limit
       module BlockCheck
-
         def check_block
           check_block_unit('second') || check_block_unit('minute') || check_block_unit('hour') if rate_limit
         end
@@ -17,7 +16,7 @@ module CableX
 
         def block_device(unit)
           redis_set block_device_key(unit), true, rate_limit[:cool_down].send('second') * 1000
-          true
+          unit
         end
 
         def disconnect_client(unit)
