@@ -2,3 +2,6 @@ plugins:
  rubocop:
   enabled: true
   channel: rubocop-0-80
+  checks:
+   Rubocop/Style/RescueModifier:
+    enabled: false
