@@ -17,16 +17,17 @@ module CableX
         def check_unit(unit)
           block_connection = false
           check_value = rate_limit[unit.to_s.to_sym]
-          if check_value
-            key = device_key unit
-            if redis_exists key
-              block_connection = redis_get(key).to_i >= check_value
-              redis_incr key
-            else
-              redis_set key, 1, 1.send(unit) * 1000
-            end
+          return unless check_value
+
+          key = device_key unit
+          if redis_exists key
+            block_connection = redis_get(key).to_i >= check_value
+            redis_incr key
+          else
+            redis_set key, 1, 1.send(unit) * 1000
           end
           return unless block_connection
+
           block_device unit
         end
       end

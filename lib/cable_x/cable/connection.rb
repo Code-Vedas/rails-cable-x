@@ -38,17 +38,17 @@ module CableX
       end
 
       def close(reason, reconnect = false)
-        transmit(
-            type: ActionCable::INTERNAL[:message_types][:disconnect],
-            reason: reason,
-            reconnect: reconnect)
+        transmit(type: ActionCable::INTERNAL[:message_types][:disconnect],
+                 reason: reason,
+                 reconnect: reconnect
+        )
         websocket.close
       end
 
       def malformed_message_response
-        transmit(
-            type: 'error',
-            message: 'malformed_message')
+        transmit(type: 'error',
+                 message: 'malformed_message'
+        )
       end
 
       def check_message(message)
