@@ -21,8 +21,6 @@ Metrics/BlockLength:
 Naming/PredicateName:
   Exclude:
     - 'spec/**/*'
-    - 'lib/mutils/serialization/serialization_methods.rb'
-
 # Offense count: 2
 # Cop supports --auto-correct.
 Style/RescueModifier:

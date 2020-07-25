@@ -1,9 +1,9 @@
 {
-  "name": "mutils-dev",
+  "name": "rails-cable-x-dev",
   "version": "0.0.0",
   "description": "used to install husky and commit lint",
   "main": "index.js",
-  "repository": "git@github.com:Code-Vedas/mutils.git",
+  "repository": "git@github.com:Code-Vedas/rails-cable-x.git",
   "author": "Nitesh Purohit <nitesh.purohit.it@gmail.com>",
   "license": "MIT",
   "private": true,
