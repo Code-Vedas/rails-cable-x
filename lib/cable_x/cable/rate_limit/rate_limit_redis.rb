@@ -15,7 +15,7 @@ module CableX
         end
 
         def redis_exists(key)
-          redis.exists key
+          redis.exists? key
         end
 
         def redis_get(key)
