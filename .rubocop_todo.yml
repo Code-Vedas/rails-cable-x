@@ -23,11 +23,12 @@ Naming/PredicateName:
     - 'spec/**/*'
     - 'lib/mutils/serialization/serialization_methods.rb'
 
-# Offense count: 1
+# Offense count: 2
 # Cop supports --auto-correct.
 Style/RescueModifier:
   Exclude:
     - 'lib/cable_x/engine.rb'
+    - 'lib/cable_x/cable/connection.rb'
 
 # Offense count: 17
 # Cop supports --auto-correct.

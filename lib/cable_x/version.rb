@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module CableX
-  VERSION = '0.1.4'
+  VERSION = File.read('Version').split("\n").first.gsub('v', '')
 end
