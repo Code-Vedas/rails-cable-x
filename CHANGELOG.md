@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/Code-Vedas/rails-cable-x/compare/v0.1.5...v0.1.6) (2020-10-15)
+
+
+### Bug Fixes
+
+* Gemfile to reduce vulnerabilities ([#41](https://github.com/Code-Vedas/rails-cable-x/issues/41)) ([a9212a7](https://github.com/Code-Vedas/rails-cable-x/commit/a9212a7068e4a62e512c92d22527dedad4646c60))
+
 ## [0.1.5](https://github.com/Code-Vedas/rails-cable-x/compare/v0.1.4...v0.1.5) (2020-07-25)
 
 
