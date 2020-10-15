@@ -8,7 +8,7 @@ gem 'puma'
 gem 'rack-cors'
 gem 'redis'
 gem 'coveralls', '~> 0.8.23'
-gem 'rspec-rails', '~> 4.0.0'
+gem 'rspec-rails', '~> 4.0.1'
 gem 'sqlite3', platform: %i[ruby mswin mingw]
 # for JRuby
 gem 'activerecord-jdbc-adapter', platform: :jruby
