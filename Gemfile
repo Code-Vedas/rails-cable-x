@@ -13,4 +13,4 @@ gem 'sqlite3', platform: %i[ruby mswin mingw]
 # for JRuby
 gem 'activerecord-jdbc-adapter', platform: :jruby
 gem 'jdbc-sqlite3', platform: :jruby
-gem 'rubocop'
+gem 'rubocop', '>= 1.11.0'
